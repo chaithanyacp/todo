@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block content %}
+{% for i in task %}
+<p>Priority :{{i.priority}} Task :{{i.name}}</p>
+{% endfor %}
+{% endblock %}
